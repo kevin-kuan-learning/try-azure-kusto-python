@@ -22,7 +22,7 @@ class KustoSampleApp:
     # TODO (config - optional): Change the authentication method from "User Prompt" to any of the other options
     #  Some of the auth modes require additional environment variables to be set in order to work (see usage in generate_connection_string below)
     #  Managed Identity Authentication only works when running as an Azure service (webapp, function, etc.)
-    AUTHENTICATION_MODE = "UserPrompt"  # Options: (UserPrompt|ManagedIdentity|AppKey|AppCertificate)
+    AUTHENTICATION_MODE = "AppKey"  # Options: (UserPrompt|ManagedIdentity|AppKey|AppCertificate)
 
     # TODO (config - optional): Toggle to False to execute this script "unattended"
     WAIT_FOR_USER = True
